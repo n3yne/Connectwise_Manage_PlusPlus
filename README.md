@@ -1,5 +1,24 @@
 # ConnectWise Manage++
 
+> [!IMPORTANT]
+> **This project has moved to [MSP++](https://github.com/n3yne/MSP_PlusPlus).**
+> ConnectWise Manage++ is no longer developed here, and this repository is archived. Everything it did now lives in MSP++, which supports ConnectWise Manage and Freshservice side by side in one app.
+>
+> **Download MSP++:** [latest release](https://github.com/n3yne/MSP_PlusPlus/releases/latest) · [all releases](https://github.com/n3yne/MSP_PlusPlus/releases)
+
+## Moving to MSP++
+
+1. Install MSP++ from the [releases page](https://github.com/n3yne/MSP_PlusPlus/releases/latest). The Windows installer keeps itself up to date.
+2. On first launch, pick the **ConnectWise Manage** and **Note Backup** plugins in the "Choose your plugins" dialog (or add them later from **Settings → Plugins → Browse**).
+3. Your ConnectWise Manage++ note drafts and snapshots are copied into MSP++ automatically when it starts with Note Backup turned on (restart MSP++ once after installing the plugin), as long as ConnectWise Manage++ was used on the same computer. Tickets are filed as `CW-<number>`, and a notification says how many notes came across. Your ConnectWise Manage++ folder is only read, never changed, so you can keep it as a backup.
+4. Other settings (templates, signature, Metrics Bar dashboards, AI provider keys) are not carried over, so set those up again in MSP++.
+
+See the [MSP++ README](https://github.com/n3yne/MSP_PlusPlus#readme) for details, and open new issues on the [MSP++ repository](https://github.com/n3yne/MSP_PlusPlus/issues).
+
+---
+
+*The original ConnectWise Manage++ documentation is kept below for reference.*
+
 An Electron-based wrapper for ConnectWise Manage that adds a persistent note editor, automatic backups, live two-way sync, AI assistance, a live metrics bar, and quality-of-life browser improvements on top of the standard web interface.
 
 **Current version:** 0.4.2
